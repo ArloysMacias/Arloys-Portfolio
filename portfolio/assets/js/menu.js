@@ -2,7 +2,8 @@ $(document).ready(main);
     function main(){
     var cont = 1;//menu oculto
     $(".menu-bar").click(function(){
-        //$('nav').toggle();
+        //$('nav').SlideToggle();
+        //$('nav').SlideToggle();
         if (cont == 1) { //if is hide
             $("nav ul").animate({
                 left: '0'
