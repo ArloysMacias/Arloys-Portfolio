@@ -9,6 +9,7 @@ nav{
     width: 100%;
     position: fixed;
     z-index: 3;
+    left: -15px;
 }
 
 nav ul{ /*Todos los ul que esten dentro del nav*/
@@ -20,7 +21,7 @@ nav>ul{/*Todos los ul hijos directos del nav*/
     display: table;
     overflow: hidden;/*todo lo que sobresalga desaparezca*/
     width: 100%;
-    background: black;
+    background: rgba(17, 17, 17, 0.65);
     position: relative;
     margin-bottom: 0%;
 }
@@ -92,8 +93,12 @@ nav ul li a .fourth{
 @media screen and (max-width: 800px){
     .menu-bar{
         z-index: 2;
+        display:inherit;
+        width: 100%;
+        left: 0;
         position: fixed;
     }
+    
     nav{
         margin: 0;
     }
@@ -124,14 +129,10 @@ nav ul li a .fourth{
         float:none;
         border-bottom:1px solid rgba(255, 255, 255, 0.281);
     }
-    .menu-bar{
-        display:block;
-        width: 100%;
-    }
     .menu-bar .btn-menu{
         display: block;
         padding: 11px;
-        background: black;
+        background: rgba(17, 17, 17, 0.65);
         color: white;
         text-decoration: none;
         /* font-weight: bold; */
@@ -146,7 +147,7 @@ nav ul li a .fourth{
 @media screen and (min-width: 800px){
    /*-nav-*/
     nav ul { 
-        display:contents;
+        left: 0 !important;
     }
 }
 
@@ -160,10 +161,10 @@ nav ul li a .fourth{
     height: 100vh;
     width: 100%;
     margin-bottom: 0;
-    background-image: url(../images/slate4.jpg);
+    background-image: url(../images/slate.jpg);
 }
 
-#about-me{
+#skills{
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
@@ -186,20 +187,26 @@ nav ul li a .fourth{
     background-position: bottom;
     height: 100vh;
     width: 100%;
+    content: normal;
     background-image: url(../images/portfolio2.jpg);
 }
-
+#footer{
+    background-color: rgba(0, 0, 0, 0.897);
+}
 /*****************************************--Transparent-*************************************/
 .transparent-background{
     width:100%;
     height: 100vh;
-    background-color: rgba(6, 6, 6, 0.55);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 2; 
 }
-.transparent-background-about-me{
+.transparent-background-skillss{
+    padding-top: 155px;
+    padding-bottom: 135px;
     width:100%;
     height: 100vh;
-    background-color: rgba(68, 58, 99, 0.29);
+   /* background-color: rgba(68, 58, 99, 0.29);*/
+    background-color: rgb(69, 69, 69);
     z-index: 2; 
 }
 .transparent-background-portfolio{
@@ -230,62 +237,13 @@ nav ul li a .fourth{
 .mt-5 {
     margin-top: 12rem!important;
 }
-                        
-/*****************************************--NavBar-************Arreglarrrrr*************************/
 
-#overwritten-navbar{
-    position:fixed;
-    z-index:5;
-    
-}
-.mine-navbar-nav{
-    background-color:rgba(0, 0, 0, 0.568) ;
-    margin-left: 1%;
-    z-index: 3;
-}
-
-#overwritten-navbar a{
-    font-size: 27px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    transform: 2s all; 
-}
-
-.bg-dark {
-    background-color: #47494b03!important;
-}
-
-#overwritten-navbar a:hover{
-    background-color: rgba(71, 71, 71, 0.2);
-}
-*/
-
-/*****************************************--Presentation-*************************************/
-
-.presentation{   
-    margin-top: 18%;
-    margin-left: 10%;
-    position: absolute;
-    z-index: 2;
-    
-    font-weight: 40;
-    text-align: left;
-
-    color: rgb(250, 245, 245);
-    background-color: transparent;
-    opacity: 0.8;   
-}
-
-.presentation h1{
-    font-size: 408%;
-    font-weight: bold;
-}
-
-.presentation p{
-    margin-top: 20px;
-    font-size: 30px;
-    font-weight: 400;
-    color: rgb(246, 180, 36);
+/*****************************************--About-*************************************/
+.cabeceras{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 /*****************************************--Skills-*************************************/
@@ -293,36 +251,20 @@ nav ul li a .fourth{
     text-align: center;
     position: absolute;
 }
-.header-skill{
-    margin-top: 210px;
-    margin-bottom: 110px;
-    color: #bcc1c1;
-    font-family: Roboto, sans-serif;
-}
-.header-skill h1 {
-    color: white;
-    font-size: 355%;
-    font-weight: 400;
-}
-.header-skill p{
-    color: white;
-    font-size: 150%;
-    font-weight: 100;
+
+.skill-name-wrapper{
+    position: absolute;
+    display: block;
 }
 
 .skill-name{
-    transform: translateY(-6px);
     float: right;
-    width: 149px;
+    width: 100%;
     margin-bottom: 9px;
     text-align: right;
     color: rgb(206, 205, 198);
 }
-.skill-name h3{
-    font-size: 25px;
-    font-family: "Roboto",sans-serif;
-    font-weight: 100px;
-}
+
 .progress {
     background: rgba(0, 0, 0, 0);
     height: 18px;
@@ -333,6 +275,7 @@ nav ul li a .fourth{
     background-color: rgb(177, 140, 61)!important;
     border-radius: 7px;
 }
+/*-Animation skills-*/
 @keyframes prog {
     from {
         width: 0%; 
@@ -342,229 +285,41 @@ nav ul li a .fourth{
         }
 }
 
-/***********--Timeline-*****HELP FROM  https://bootsnipp.com/snippets/yGbV     ****************************/
+/*****************************************--Contact-*************************************/
 
-/*********-----container---********/
-.container-timeline {
-  position: relative;
-  padding: 10px 10px 10px 50px;/* More space for the vertical line to the left */
-  
-  max-width: 320px;/* Width restriction if you want */
 
+
+
+
+/*Deleting gap from boostrap*/
+.row{
+    margin-right: 0px!important;
+    margin-left: -3px!important;
 }
-
-/***********------ vertical  line----**************/
-.container-timeline::before {
-  content: '';
-  width: 5px;
-  background-color: rgb(228, 147, 41);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 15px;
-}
-
-/***------container de las tarjetas----**** */
-div.contenedor-card-rigth {
-  padding: 10px 0;
-  position: relative;
-  width: 100%;
-}
-
-div.contenedor-card-left {
-  padding: 10px 0;
-  position: relative;
-  width: 100%;
-}
-
-/****---Donde va el contenido---*****/
-div.cards {
-  padding: 20px 30px;
-  background-color: #9fa5a5;
-  position: relative;
-  border-radius: 6px;
-}
-
-/* [THE DATE & TEXT] */
-strong.date {
-  font-size: 1.1em;
-  font-weight: bold;
-  color: #333;
-}
-
-/******* triangulo a la izquierda del contenedor *****/
-div.contenedor-card-rigth::before {
-  content: '';
-  border: 10px solid transparent;
-  border-right-color: #9fa5a5;
-  border-left: 0;
-  position: absolute;
-  top: 20%;
-  left: -10px;
-}
-
-/******* circulo despues (sobre) de la linea *****/
-div.contenedor-card-rigth::after {
-  content: ''; /**-Si no lo pongo no aparece-**/
-  background: #fff;
-  border: 4px solid rgb(222, 170, 26);
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  position: absolute;
-  top: 20%;
-  left: -42px;
-}
-
-/******* triangulo a la derecha de contenedor *****/
-div.contenedor-card-left::before {
-  content: '';
-  border: 10px solid transparent;
-  border-right-color: #9fa5a5;
-  border-left: 0;
-  position: absolute;
-  top: 20%;
-  left: -10px;
-}
-/******* circulo despues (sobre) de la linea *****/
-div.contenedor-card-left::after {
-  content: ''; /**-Si no lo pongo no aparece-**/
-  background: #fff;
-  border: 4px solid rgb(222, 170, 26);
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  position: absolute;
-  top: 20%;
-  left: -42px;
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .container-timeline::after {
-  left: 31px;
-  }
-  
-  /* Full-width containers */
-.contenedor-card {
-  width: 100%;
-  padding-left: 70px;
-  padding-right: 25px;
-  }
-
-
-/*********************--Codigo tomado y modificado de -https://www.w3schools.com/howto/howto_css_flip_card.asp--**************/
-  
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-
-
-
-  /* Make sure that all arrows are pointing leftwards */
-  .contenedor-card::before {
-  left: 60px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .contenedor-card-left::after, contenedor-card-rigth::after {
-  left: 15px;
-  }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
-  left: 0%;
-  }
-}
-
-
 
 /*****************************************--DesktopAproach-*************************************/
-/* Media queries - Responsive timeline on screens less than 600px wide */
 
-
-
-
-/*2do estilo  1er media create
-esta es la configuracion por defecto del tablet y menores*/
-@media(max-width:991px){
-    .presentation h1 {
-    font-size: 508%;
-    font-weight: 400;
-}
-  .presentation p{
-        size: 10px;
-    }
+/* md*/
+@media(min-width:991px){
+   
 }
 
-/*3er estilo    2do media create
-esta es la configuracion por defecto del mobil y menores*/
-@media(max-width:767px){
+/*sm */
+@media(min-width:767px){
+    .skill-name p{
+        font-size: 20px;
+    }
+    .progress {
+        height: 26px;
+    }
 
-    .presentation{
-        margin: 89px auto;
-    }
-    .presentation h1 {
-    font-size: 447%;
-    }
-    .presentation p{
-        size: 10px;
-    }
+    .form-group {
+    display: flex;
+    margin-bottom: 2rem;
 }
-/*3er estilo    2do media create
-esta es la configuracion por defecto de los mas chiquitos*/
-@media(max-width:568px){
-    
-    .presentation{
-        margin: 89px auto;
-    }
-    .presentation h1{
-        font-size: 362%;
-    }
-    .presentation p{
-        size: 10px;
-    }
 }
+/*xm*/
+@media(min-width:568px){
 
-
+}
 
