@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Roboto+Mono&display=swap');
 
 /*****************************************--NavBar-*************************************/
+
+
 .menu-bar{
     display: none;
 }
@@ -168,7 +170,8 @@ nav ul li a .fourth{
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
-    height: 100vh;
+    overflow: hidden;
+    height: auto;
     width: 100%;
     background-image: url(../images/portfolio2.jpg);
 }
@@ -176,7 +179,8 @@ nav ul li a .fourth{
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
-    height: 100vh;
+    height: auto;
+    overflow: hidden;
     width: 100%;
     background-image: url(../images/buena.jpg);
 }
@@ -185,7 +189,8 @@ nav ul li a .fourth{
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
-    height: 100vh;
+    height: auto;
+    overflow: hidden;
     width: 100%;
     content: normal;
     background-image: url(../images/portfolio2.jpg);
@@ -204,7 +209,9 @@ nav ul li a .fourth{
     padding-top: 155px;
     padding-bottom: 135px;
     width:100%;
-    height: 100vh;
+    height: auto;
+
+overflow: hidden;
    /* background-color: rgba(68, 58, 99, 0.29);*/
     background-color: rgb(69, 69, 69);
     z-index: 2; 
@@ -239,6 +246,11 @@ nav ul li a .fourth{
 }
 
 /*****************************************--About-*************************************/
+.espaciado{
+    height: 30px;
+    width: 100%;
+    content: "";
+}
 .cabeceras{
     color: white;
     width: 100%;
