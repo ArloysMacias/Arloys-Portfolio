@@ -197,8 +197,7 @@ nav ul li a .fourth{
     overflow: hidden;
 }
 
-#publications{
-    background-color: #ececec;
+#portfolio{
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
@@ -217,13 +216,8 @@ nav ul li a .fourth{
     content: normal;
     background-image: url(../images/white-coumputer-keyboard-34490.jpg);
 }
-#footer-contact{
-    background-color: #666666;
-}
 #footer{
-    color: rgb(202, 196, 196);
-    padding: 60px;
-    background-color: #363636;
+    background-color: rgba(107, 105, 105, 0.897);
 }
 /*****************************************--Transparent-*************************************/
 .transparent-background-home{
@@ -238,6 +232,7 @@ background: linear-gradient(to right,  rgba(255,255,255,0.81) 26%,rgba(255,255,2
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 
 }
+
 .centro{
     text-align: center;
     font-weight: 13px;
@@ -248,6 +243,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', e
     z-index: 6;
     font-family: 'Montserrat', sans-serif;
 }
+
 .transparent-background-skills{
     padding-top: 155px;
     padding-bottom: 135px;
@@ -255,18 +251,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', e
     height: auto;
     overflow: hidden;
    /* background-color: rgba(68, 58, 99, 0.29);*/
-    background-color: #fffffff1;
+    background-color: #ffffffe8;
     z-index: 2; 
 }
-
-.transparent-background-contact{
+.transparent-background-portfolio{
     padding-top: 155px;
     padding-bottom: 135px;
     width:100%;
-    height: 50%;
+    height: auto;
     overflow: hidden;
-    background-color: rgba(220, 220, 220, 0.79);
-    z-index: 2; 
+   /* background-color: rgba(68, 58, 99, 0.29);*/
+    background-color: rgba(219, 212, 212, 0.63);
+    z-index: 2;  
 }
 
                              
@@ -309,6 +305,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', e
     position: absolute;
 }
 
+
 .skill-name{
     font-size: 20px;
     float: right;
@@ -346,387 +343,66 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', e
 
 
 /*****************************************--Publications-*************************************/
+.publications{
+    color: rgb(44, 44, 44);
 
-
-
-
-
-
-/***************************--Time line-************  Idea from  https://gist.github.com/CodeMyUI/258edf8a49787f76e7b41761eea612f6    ***********************/
-
-
-/**time-line-container**/
-.time-line-container {
-  width: 90%;
-  max-width: 1080px;
-  margin: 0 auto;
-  background: transparent;
-  padding: 0 10%;
-  border-radius: 2px;
-}
-
-/**time-line-container**/
-.time-line-container::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-/**line**/
-#timeline {
-  position: relative;
-  padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-/**line color**/
-#timeline::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 25px;
-  height: 100%;
-  width: 4px;
-  background: rgb(159, 45, 45);
-}
-
-.read-more{
-    margin-top: 12px;
-    padding: 5px;
-}
-.read-more .btn-primary{
-    color: black;
-    border: none;
-    background-color: rgb(204, 202, 202);
-    font-size: 15px;
-}
-
-.date{
-    background-color: rgba(189, 189, 189, 0);
-    font-family: "Roboto",sans-serif;
-}
-
-/**line in widescreen**/
-@media only screen and (min-width: 1170px) {
-  #timeline {
-    margin-top: 3em;
-    margin-bottom: 3em;
-  }
-  #timeline::before {
-    left: 50%;
-    margin-left: -2px;
-  }
-}
-
-/**card-timeline-container**/
-.card-timeline-container {
-  position: relative;
-  margin: 2em 0;
-}
-/**No floating elements allowed on either the left or the right side of the card-timeline **/
-.card-timeline-container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/**margin on the top**/
-.card-timeline-container:first-child {
-  margin-top: 0;
-}
-
-/**margin on the bottom**/
-.card-timeline-container:last-child {
-  margin-bottom: 0;
-}
-
-/**bigest than desktop**/
-@media only screen and (min-width: 1170px) {    
-    .card-timeline {
-        margin: 4em 0;
-    }
-    /**margin on the top**/
-    .card-timeline:first-child {
-        margin-top: 0;
-    }
-
-    /**margin on the bottom**/
-    .card-timeline:last-child {
-        margin-bottom: 0;
-    }
-}
-
-/**Circle that is on top of the line border ...shadow-circle-color...**/
-.circle {
-  position: absolute;
-  top: 8px;
-  left: 12px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px rgba(173, 173, 173, 0.185), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-}
-/**inside color**/
-.circle {
-  background:rgb(159, 45, 45);
-}
-
-/**Wscreen Circle that is on top of the line**/
-@media only screen and (min-width: 1170px) {
-  .circle {
-    width: 30px;
-    height: 30px;
-    left: 50%;
-    margin-left: -15px;
-    margin-top: 15px;
-  }
-}
-
-/**Content inside of the card (primeros hijos)  COLOR **/
-.card-timeline-content {
-  position: relative;
-  margin-left: 60px;
-  margin-right: 30px;
-  background: white;
-  border-radius: 2px;
-  padding: 1em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-.card-timeline-content:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/**Agrupa la informacion TITLE AND DATE ..color...**/
-.card-timeline-container-info {
-    background: transparent;
-    padding: 5px 10px;
-    color: rgba(5, 5, 5, 0.7);
-    font-size: 12px;
-    box-shadow:  inset 0 2px 0 rgba(216, 214, 214, 0.424);
-    border-radius: 2px;
-}
-
-/**card-timeline-container-info**/ 
-.card-timeline-container-info>i {
-    margin-right: 5px;
 }
 
 
-/**card-timeline-container-info-TITLE and card.....-DATE**/
-.card-timeline-container-info-title, .card-timeline-container-info-date {  
-    width: calc(50% - 2px);
-    display: inline-block;
-}
-/** In small screen *** card-timeline-container-info-TITLE and card.....-DATE**/
-@media (max-width: 500px) {
-    .card-timeline-container-info-title, .card-timeline-container-info-date {  
-        display: block;
-        width:100%;
-   } 
-}
 
 
-/**Skills**/
-.container-skills {
-    font-size: 12px;
-    padding:0;
-    margin-bottom: 0;
-    display:flex;  /**Taked from https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp **/
-    flex-wrap: wrap; /**specifies whether the flexible items should wrap or not.**/
-    justify-content: center;
-}
-/**Skills  ...color...**/
-.container-skills>li {
-    background: rgba(240, 240, 240, 0.726);
-    border-radius: 2px;
-    display: inline-block;
-    padding: 2px 10px;
-    color: rgb(31, 31, 31);
-    margin: 3px 2px;
-    text-align: center;
-    flex-grow: 1;
-}
 
 
-/**Do this after the card...-content**/
-.card-timeline-content:after {
-  content: "";/*pone esto siempre despues*/
-  display: table;/*lo muestra como una tabla*/
-  clear: both;/*y no lo permite flotar*/
-}
-/**header color**/
-.card-timeline-content h2 {
-  color: rgba(0, 0, 0, 0.9);
-  font-weight: bold;
-  margin-top:0;
-  margin-bottom: 5px;
-}
-/**paragraf color**/
-.card-timeline-content p, .card-timeline-content .date {
-  color: rgb(0, 0, 0);
-  font-size: 13px;
-}
-.card-timeline-content .date {
-  display: inline-block;
-}
-.card-timeline-content p {
-  margin: 1em 0;
-  line-height: 1.6;
-}
-/**Lite triangle in the left (before)**/
-.card-timeline-content::before {
-  content: '';
-  position: absolute;
-  top: 16px;
-  right: 100%;
-  height: 0;
-  width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid rgb(172, 173, 173);
-}
 
 
-/**MOVIL**/
-@media (min-width: 768px) {
-  .card-timeline-content h2 {
-    font-size: 20px;
-  }
-  .card-timeline-content p {
-    font-size: 16px;
-  }
-  .card-timeline-content .read-more, .card-timeline-content .date {
-    font-size: 14px;
-  }
+
+
+
+
+
+
+
+
+/*****************************************--Cards-*************************************/
+.card>img{
+    min-height: 200px;
+    min-width: 200px;
 }
 
-/**DESKTOP**/
-@media (min-width: 1170px) {
+.cards:hover {
+  -webkit-box-shadow: 10px 10px 10px 10px rgb(158, 155, 151);
+    box-shadow: 10px 10px 10px 10px rgba(75, 74, 73, 0.87);
+}
 
-    .card-timeline-content {
-        color: rgb(224, 222, 222);
-        margin-left: 0;
-        padding: 1.6em;
-        width: 36%;
-        margin: 0 5%
-    }
-
-    /**Triangle color**/
-    .card-timeline-content::before {
-        top: 24px;
-        left: 100%;
-        border-color: transparent;
-        border-left-color: rgb(255, 255, 255);
-    }
+.container-cards {
     
-    .card-timeline-content .date {
-        position: absolute;
-        width: 100%;
-        left: 122%;
-        top: 6px;
-        font-size: 16px;
-    }
-
-    /**nth-child(even)=nth-child(2n)=  card-timeline-container PARES **/
-    .card-timeline-container:nth-child(even) .card-timeline-content {
-        float: right;
-    }
-
-    /****Antes de cada container*******nth-child(even)=nth-child(2n)=  card-timeline-container PARES **/
-    /**Triangulo de la izquierda de los PARES**/
-    .card-timeline-container:nth-child(even) .card-timeline-content::before {
-        top: 24px;
-        left: auto;
-        right: 100%;
-        border-color: transparent;
-        border-right-color: rgb(255, 255, 255);
-    }
-
-    /**The .read-more of the .card-timeline-content of the PARES  go to the left**/
-    .card-timeline-container:nth-child(even) .card-timeline-content .read-more {
-        float: right;
-    }
-
-    /**The .date of the .card-timeline-content of the PARES  go to the left**/
-    .card-timeline-container:nth-child(even) .card-timeline-content .date {
-        left: auto;
-        right: 130%;
-        text-align: right;
-        font-size: 22px;
-    }
-
-    /**The .date of the .card-timeline-content of the NO PARES  go to the left**/
-    .card-timeline-container:nth-child(odd) .card-timeline-content .date {
-        left: 130%;
-        right: auto;
-        text-align: left;
-        font-size: 22px;
-    }
-
+    padding: 2px 16px;
 }
-
-
 
 
 /*****************************************--Contact-*************************************/
 
-.contact-container{
-    background-color:#666666 ;
-    color: rgb(255, 255, 255);
-    -webkit-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
-}
-.container-formulario{
-    text-align: center;
-    font-family: "Roboto",sans-serif;
-}
 
-.btn-primary {
-  background-color: #363636;
-  border: none;
-  color: white;
-  font-family: "Roboto",sans-serif;
-}
 
-.cabeceras-contact{
-    font-family: "Roboto",sans-serif;
-    text-align: left;
-    color:white;
-}
 
-.information-contact-cabecera > p{
-    line-height:32px;
-}
 /*****************************************--Footer-*************************************/
 
 .information{
-    color: #363636;
+    color: white;
 }
 
 
 /*****************************************--DesktopAproach-*************************************/
 
-/* mayor que tablet menor que desktop*/
+/* md DESKTOP*/
 @media(max-width:991px){
-    .information-contact-cabecera > p{
-        line-height:22px;
-        font-size:  15px;   
-    }
-    .information{
-        font-size:  15px;  
-    }
+
 }
 
-/*md  TABLETS*/
+/*sm  TABLETS*/
 @media(max-width:767px){
-  .cabeceras-contact{
-        margin-left: 10px;
-        margin-bottom: 40px;
-    }
+    
 
-    .information-contact-cabecera > p{
-        line-height:20px;
-    }
 
 }
 /*xm  MOBIL*/
@@ -745,15 +421,6 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
     .form-group {
         display: flex;
         margin-bottom: 2rem;
-    }
-
-    .cabeceras-contact{
-        margin-left: 10px;
-        margin-bottom: 40px;
-    }
-
-    .information-contact-cabecera > p{
-        line-height:20px;
     }
 }
 
