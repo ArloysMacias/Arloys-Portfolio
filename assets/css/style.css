@@ -673,7 +673,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', e
 
 .contact-container{
     background-color:#666666 ;
-    color: rgb(255, 255, 255);
+    color: #d0d0d0;
     -webkit-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
@@ -685,6 +685,7 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 
 .btn-primary {
   background-color: rgb(138, 26, 26);
+  font-size: 14px;
   border: none;
   color: white;
   font-family: 'webkit-pictograph', sans-serif;
@@ -706,7 +707,7 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 /*****************************************--Footer-*************************************/
 
 .information{
-    color: #363636;
+    color: #d0d0d0;
 }
 
 .footer-links a{
@@ -745,6 +746,10 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 }
 /*xm  MOBIL*/
 @media(max-width:568px){
+    .transparent-background-skills {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     
 .skill-name{
     font-size: 15px;
@@ -772,6 +777,9 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 
     .centro{
         font-size: 0.9rem;
+        line-height: 25px;
+        margin-top: 10vh;
+        margin-bottom: 7vh;
     }
 }
 
