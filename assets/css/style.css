@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap');
 
 /*****************************************--NavBar-*************************************/
 
@@ -80,6 +81,7 @@ nav>ul li a {
 nav>ul>li>a span .fa{
     display: block;
     line-height: 60px;
+    color: rgb(159, 45, 45);
 }
 
 nav>ul>li>a:hover>span{/**estilo se aplica a span**/
@@ -682,10 +684,14 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 }
 
 .btn-primary {
-  background-color: #363636;
+  background-color: rgb(138, 26, 26);
   border: none;
   color: white;
-  font-family: "Roboto",sans-serif;
+  font-family: 'webkit-pictograph', sans-serif;
+}
+
+.btn-primary:hover{
+    background-color: #8080807a;
 }
 
 .cabeceras-contact{
@@ -703,6 +709,14 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
     color: #363636;
 }
 
+.footer-links a{
+    color: white;
+
+}
+.footer-links a:hover{
+    color: rgb(159, 45, 45);
+
+}
 
 /*****************************************--DesktopAproach-*************************************/
 
