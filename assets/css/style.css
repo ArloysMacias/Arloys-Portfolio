@@ -769,6 +769,10 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
     .information-contact-cabecera > p{
         line-height:20px;
     }
+
+    .centro{
+        font-size: 0.9rem;
+    }
 }
 
 /*Deleting gap from boostrap*/
