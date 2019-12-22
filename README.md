@@ -81,7 +81,7 @@ All the fields in the contact form are validated using the 'required' attribute 
 
 This site was developed on GitPod online IDE and hosted on the GitHub platform. It is using the master branch which allows every change, commit and push to show immediately in real time to users. 
 
-To run the site locally the user can paste https://arloysmacias.github.io/PortFolio2/ in the browser. To Clone with HTTPS the user can use git using the web URL: https://github.com/ArloysMacias/PortFolio2.git .
+To run the site locally the user can paste https://arloysmacias.github.io/Arloys-Portfolio/ in the browser. To Clone with HTTPS the user can use git using the web URL: https://github.com/ArloysMacias/Arloys-Portfolio.git .
 
 ## Credits
 
