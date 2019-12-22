@@ -13,12 +13,30 @@ This is where I sell myself. I have created a site with a portfolio where potent
 
 ## UX
 
-User Stories
+### User Stories
 As a recruiter I expect to find an attractive page that represents Arloys' skills.
 
 As an employer I expect to see Arloys' experience easily so I can make an informed decision.
 
+### Strategy
+I wanted to make an attractive and simple site to capture the attention of potential employers.
+
+### Scope
+The site gives easy access to employers and recruiters where they can find information about me and my experience, skills and publications, as well as contact me if they are interested.
+
+### Structure
+In the 'Publications' section of my site, employers can easily find information through clickable links to my published articles. In the 'Contact' section they can find clickable links to my LinkedIn profile, GitHub and ResearchGate. I have also provided a downloadable pdf version of my CV.
+
+### Skeleton
+
+
+
+### Surface
+In the design of the site I choose to use grey tones with added red elements for an attractive and modern feel.
+
 ## Features
+
+### Existing Features
 
 - The home page has an welcoming image of me and my name as an introduction. It is in a light grey color which is suitable for both normal and high contrast screens. It is also a color which gives a modern and clean impression. The navigation bar was created after watching an online tutorial ans it and the background image is fixed adding to the modern feel.
 
@@ -31,3 +49,34 @@ As an employer I expect to see Arloys' experience easily so I can make an inform
 - The contact section provides my contact information as well as a form for visitors to contact me directly. The form is correctly validated and helps the used provide the correct information using the correct type in each field of the form (input). Here  the visitor can also find links to my social media platforms.
 
 - The footer sections shows the year of the copywrite stating my exclusive ownership of the site.
+
+### Features Left to Implement
+
+I would like to add the option of changing the language of the page to Spanish since this is my mother tongue as well as translating the publications to English. Likewise, it is my intention to add future projects I create in this portfoilo.
+
+## Technologies Used
+
+- Bootstrap
+- CSS 3
+- HTML 5
+- JavaScript
+
+## Testing
+
+## Deployment
+
+## Credits
+
+### Content
+
+The information in the 'About' section was written by me. The published articles in the 'Publications' section was written by me in collaboration with several different authors credited in the articles themselves.
+
+### Media
+
+The image of me is created from a private photo but the background of the 'Skills' and 'Contact' section was downloaded from Pexels (https://www.pexels.com/photo/white-coumputer-keyboard-34490/).
+
+### Acknowledegments
+
+To make the navigation bar I watched a tutorial _____ 
+
+The bars showing the skills were taken from _____ and the design of the time line in the 'Publications' section was inspired from ___
