@@ -4,17 +4,17 @@
 This is where I sell myself. I have created a site with a portfolio where potential employers can find my publications, find information about me and my career as a software developer as well as my skills. It includes a section with my contact information as well as a form which can be used directly via the portfoilo.
 
 
+##Demo
+<img src="assets/images/demoAlldevicesPortfolio.gif" width="80" height="80" />
 
-
-
-#UX
+##UX
 
 User Stories
 As a recruiter I expect to find an attractive page that represents Arloys' skills.
 
 As an employer I expect to see Arloys' experience easily so I can make an informed decision.
 
-#Features
+##Features
 
 The home page has an welcoming image of me and my name as an introduction. It is in a light grey color which is suitable for both normal and high contrast screens. It is also a color which gives a modern and clean impression. The navigation bar was created after watching an online tutorial ans it and the background image is fixed adding to the modern feel.
 
