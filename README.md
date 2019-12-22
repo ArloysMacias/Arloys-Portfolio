@@ -29,8 +29,9 @@ In the 'Publications' section of my site, employers can easily find information 
 
 ### Skeleton
 
+Desktop view: <img src="assets/images/portfoliotabletdemo.gif" width="40%" height="40%" />
 
-
+Mobile/Tablet view: 
 ### Surface
 In the design of the site I choose to use grey tones with added red elements for an attractive and modern feel.
 
