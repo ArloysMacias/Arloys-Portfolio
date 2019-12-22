@@ -29,10 +29,12 @@ In the 'Publications' section of my site, employers can easily find information 
 
 ### Skeleton
 
-<a href="https://github.com/ArloysMacias/PortFolio2/blob/master/assets/images/image-Design.jpg" target="blank">Desktop view:</a>
+- <a href="https://github.com/ArloysMacias/PortFolio2/blob/master/assets/images/image-Design.jpg" target="blank">Desktop wireframe</a>
 
-Mobile/Tablet view: 
+- <a href="https://github.com/ArloysMacias/PortFolio2/blob/master/assets/images/movilwireframe.jpg" target="blank">Mobile/Tablet wireframe</a> 
+
 ### Surface
+
 In the design of the site I choose to use grey tones with added red elements for an attractive and modern feel.
 
 ## Features
