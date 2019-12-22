@@ -6,7 +6,7 @@ This is where I sell myself. I have created a site with a portfolio where potent
 
 ##Demo
 
-<img src="assets/images/demoAlldevicesPortfolio.gif" width="100%" height="100%" />
+<img src="assets/images/demoAlldevicesPortfolio.gif" width="60%" height="70%" />
 
 ##UX
 
