@@ -7,8 +7,8 @@ This is where I sell myself. I have created a site with a portfolio where potent
 ##Demo
 <<<<<<< HEAD
 <img src="assets/images/MyLaptopPortfoliogiphy.gif" width="100%" height="100%" />
-<img src="assets/images/portfolio-movil-demo.gif" width="50%" height="50%" />
-<img src="assets/images/portfoliotabletdemo.gif" width="50%" height="50%" />
+<img src="assets/images/portfolio-movil-demo.gif" width="30%" height="30%" />
+<img src="assets/images/portfoliotabletdemo.gif" width="40%" height="40%" />
 =======
 
 <img src="assets/images/demoAlldevicesPortfolio.gif" width="60%" height="70%" />
