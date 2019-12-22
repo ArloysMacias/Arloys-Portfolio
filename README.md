@@ -29,7 +29,7 @@ In the 'Publications' section of my site, employers can easily find information 
 
 ### Skeleton
 
-Desktop view: <img src="assets/images/portfoliotabletdemo.gif" width="40%" height="40%" />
+Desktop view: <img src="assets/images/image-Design.jpg" width="40%" height="40%" />
 
 Mobile/Tablet view: 
 ### Surface
