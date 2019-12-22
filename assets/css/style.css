@@ -242,7 +242,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', e
 }
 .centro{
     text-align: center;
-    font-weight: 13px;
     line-height: 41px;
     font-size: 1.4rem;
     margin-top: 25vh;
@@ -751,10 +750,6 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
         padding-bottom: 50px;
     }
     
-.skill-name{
-    font-size: 15px;
-    font-weight: 13px;
-    }
  
     .progress {
         height: 21px;
