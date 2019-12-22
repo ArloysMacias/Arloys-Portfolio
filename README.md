@@ -6,14 +6,8 @@ This is where I sell myself. I have created a site with a portfolio where potent
 
 ## Demo
 
-### Desktop view
-<img src="assets/images/MyLaptopPortfoliogiphy.gif" width="80%" height="80%" />
-
-### Mobile view
-<img src="assets/images/portfolio-movil-demo.gif" width="10%" height="10%" />
-
-### Tablet view
-<img src="assets/images/portfoliotabletdemo.gif" width="30%" height="30%" />
+### Desktop/Mobile/Tablet view
+<img src="assets/images/MyLaptopPortfoliogiphy.gif" width="50%" height="50%" /><img src="assets/images/portfolio-movil-demo.gif" width="20%" height="20%" /><img src="assets/images/portfoliotabletdemo.gif" width="30%" height="30%" />
 
 
 ## UX
