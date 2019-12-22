@@ -35,7 +35,7 @@ In the 'Publications' section of my site, employers can easily find information 
 
 ### Surface
 
-In the design of the site I choose to use grey tones with added red elements for an attractive and modern feel.
+In the design of the site I chose to use grey tones with added red elements for an attractive and modern feel.
 
 ## Features
 
@@ -55,7 +55,7 @@ In the design of the site I choose to use grey tones with added red elements for
 
 ### Features Left to Implement
 
-I would like to add the option of changing the language of the page to Spanish since this is my mother tongue as well as translating the publications to English. Likewise, it is my intention to add future projects I create in this portfoilo.
+I would like to add the option of changing the language of the page to Spanish since this is my mother tongue. Likewise, it is my intention to add future projects I create in this portfoilo.
 
 ## Technologies Used
 
@@ -66,7 +66,17 @@ I would like to add the option of changing the language of the page to Spanish s
 
 ## Testing
 
+This site was tested with the inspection function of Chrome and Firefox and the featured mobile view that they provide (iphone 6, 7, 8 plus and ipad). No issues were detected during the testing. Neither were any issues found when tests were performed in devices with high contrast since the site color scheme is ina simple gray scale. 
+
+All the links in the 'Publications' section were tested to make sure they redirected to the correct publications website, as well as the link in the navigation bar to a downloadable pdf version of the CV.
+
+All the fields in the contact form are validated using the 'required' attribute and the appropiate 'type' (text, email, number, message) avoiding users inputting the wrong information. If the correct information is filled in the form will redirect to the user's default email service provider to send.
+
 ## Deployment
+
+This site was developed on GitPod online IDE and hosted on the GitHub platform. It is using the master branch Hich allow every change, commit and push to show immediately in real time to users. 
+
+To run the site locally the user can paste https://arloysmacias.github.io/PortFolio2/ in the browser. To Clone with HTTPS the user can use git using the web URL: https://github.com/ArloysMacias/PortFolio2.git .
 
 ## Credits
 
@@ -80,6 +90,8 @@ The image of me is created from a private photo but the background of the 'Skill
 
 ### Acknowledegments
 
-To make the navigation bar I watched a tutorial _____ 
+To make the navigation bar I watched a tutorial made by Falcon Masters: https://www.youtube.com/watch?v=z-CPRslZS_A
 
-The bars showing the skills were taken from _____ and the design of the time line in the 'Publications' section was inspired from ___
+The bars showing the skills were made using Bootstrap: https://getbootstrap.com/docs/4.3/components/progress/
+
+The design of the time line in the 'Publications' section was inspired by: https://gist.github.com/CodeMyUI/258edf8a49787f76e7b41761eea612f6
