@@ -151,7 +151,7 @@ nav ul li a .fourth{
         color: rgb(44, 44, 44);
         text-decoration: none;
         /* font-weight: bold; */
-        font-size: 23px;
+        font-size: 25px;
         box-sizing: border-box;
     }
     .menu-bar span{
@@ -277,6 +277,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', e
 #page-header{
     color: rgb(44, 44, 44);
     font-family: "Rboto", sans-serif;
+    margin-top: 10px;
 }
 #page-header>h1{
     font-size:60px;
@@ -745,6 +746,8 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 }
 /*xm  MOBIL*/
 @media(max-width:568px){
+    
+
     .transparent-background-skills {
         padding-top: 50px;
         padding-bottom: 50px;
