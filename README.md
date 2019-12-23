@@ -53,7 +53,7 @@ In the design of the site I chose to use grey tones with added red elements for 
 
 ### Features Left to Implement
 
-I would like to add the option of changing the language of the page to Spanish since this is my mother tongue. Likewise, it is my intention to add future projects I create in this portfoilo. I also would like to add or implement the necessary code to allow the user to send an email directly without opening the email service provider as well as provide information on what is happening at that time
+I would like to add the option of changing the language of the page to Spanish since this is my mother tongue. Likewise, it is my intention to add future projects I create in this portfoilo. I also would like to add or implement the necessary code to allow the user to send an email directly without opening the email service provider as well as provide information on what is happening at that time.
 
 ## Technologies Used
 
@@ -76,7 +76,7 @@ This site was developed on GitPod online IDE and hosted on the GitHub platform. 
 
 To run the site locally the user can paste https://arloysmacias.github.io/Arloys-Portfolio/ in the browser. To Clone with HTTPS the user can use git using the web URL: https://github.com/ArloysMacias/Arloys-Portfolio.git .  Add ink of github explanition
 
-For more information on how to use Github and Gitpod you can find the related documentation at: https://www.gitpod.io/docs/10_getting_started/
+For more information on how to use Github and Gitpod you can find the related documentation at: https://www.gitpod.io/docs/10_getting_started/ .
 
 ## Credits
 
