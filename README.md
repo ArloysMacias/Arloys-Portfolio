@@ -17,7 +17,7 @@ As a recruiter I expect to find an attractive page that represents Arloys' skill
 As an employer I expect to see Arloys' experience easily so I can make an informed decision.
 
 ### Strategy
-I wanted to make an attractive and simple site to capture the attention of potential employers.
+I wanted to make an attractive and simple site to capture the attention of potential employers, a site that can show all my skills by telling people where and how they can easily contact me.
 
 ### Scope
 The site gives easy access to employers and recruiters where they can find information about me and my experience, skills and publications, as well as contact me if they are interested.
@@ -53,7 +53,7 @@ In the design of the site I chose to use grey tones with added red elements for 
 
 ### Features Left to Implement
 
-I would like to add the option of changing the language of the page to Spanish since this is my mother tongue. Likewise, it is my intention to add future projects I create in this portfoilo.
+I would like to add the option of changing the language of the page to Spanish since this is my mother tongue. Likewise, it is my intention to add future projects I create in this portfoilo. I also would like to add or implement the necessary code to allow the user to send an email directly without opening the email service provider as well as provide information on what is happening at that time
 
 ## Technologies Used
 
@@ -74,7 +74,9 @@ All the fields in the contact form are validated using the 'required' attribute 
 
 This site was developed on GitPod online IDE and hosted on the GitHub platform. It is using the master branch which allows every change, commit and push to show immediately in real time to users. 
 
-To run the site locally the user can paste https://arloysmacias.github.io/Arloys-Portfolio/ in the browser. To Clone with HTTPS the user can use git using the web URL: https://github.com/ArloysMacias/Arloys-Portfolio.git .
+To run the site locally the user can paste https://arloysmacias.github.io/Arloys-Portfolio/ in the browser. To Clone with HTTPS the user can use git using the web URL: https://github.com/ArloysMacias/Arloys-Portfolio.git .  Add ink of github explanition
+
+For more information on how to use Github and Gitpod you can find the related documentation at: https://www.gitpod.io/docs/10_getting_started/
 
 ## Credits
 
