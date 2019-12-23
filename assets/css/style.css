@@ -234,11 +234,12 @@ nav ul li a .fourth{
     height: 100vh;
     background-color: rgba(246, 246, 246, 0.43);
     z-index: 2; 
+    overflow: hidden;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+30,ffffff+83&0.81+26,0+76,0+90,0+90 */
-background: -moz-linear-gradient(left,  rgba(255,255,255,0.81) 26%, rgba(255,255,255,0.75) 30%, rgba(255,255,255,0) 76%, rgba(255,255,255,0) 83%, rgba(255,255,255,0) 90%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+    background: -moz-linear-gradient(left,  rgba(255,255,255,0.81) 26%, rgba(255,255,255,0.75) 30%, rgba(255,255,255,0) 76%, rgba(255,255,255,0) 83%, rgba(255,255,255,0) 90%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 
 }
 .centro{
