@@ -28,18 +28,18 @@ nav>ul{/*Todos los ul hijos directos del nav*/
     display: table;
     overflow: hidden;/*todo lo que sobresalga desaparezca*/
     width: 100%;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgb(159 44 46);
     position: relative;
     margin-bottom: 0%;
     float: left;
     padding: 0px;
--webkit-box-shadow: 1px 2px 7px 0px rgba(50, 50, 50, 1);
--moz-box-shadow:    1px 2px 7px 0px rgba(50, 50, 50, 1);
-box-shadow:         1px 2px 7px 0px rgba(50, 50, 50, 1);
+    -webkit-box-shadow: 1px 2px 7px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    1px 2px 7px 0px rgba(50, 50, 50, 1);
+    box-shadow:         1px 2px 7px 0px rgba(50, 50, 50, 1);
 }
 
 nav>ul>li>a span{
-    background: gray;
+    background: #e9e3e3;
     display: block;
     height: 100%;
     width: 100%;
@@ -61,7 +61,7 @@ nav>ul li{
 
 nav>ul li a {
     font-weight: bold;
-    color: rgb(26, 25, 25);
+    color: rgb(255 255 255);
     font-family: "Roboto",sans-serif;
     display: block;/*para poder ajustar ancho y largo*/
     line-height: 15px;
@@ -92,16 +92,16 @@ nav>ul>li>a:hover{ /**estilo se aplica a a**/
 }
 
 nav ul li a .first{
-    background: rgb(102, 101, 101);
+    background: rgb(210 210 210);
 }
 nav ul li a .second{
-    background: rgb(102, 101, 101);
+    background: rgb(210 210 210);
 }
 nav ul li a .third{
-    background: rgb(102, 101, 101);
+    background: rgb(210 210 210);
 }
 nav ul li a .fourth{
-    background: rgb(102, 101, 101);
+    background: rgb(210 210 210);
 }
 /******************--Nav-Bar en moviles-********************/
 @media screen and (max-width: 800px){
